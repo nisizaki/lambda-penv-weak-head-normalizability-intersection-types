@@ -133,3 +133,7 @@ docs/outline.pdf           theory document: all theories with proofs omitted
 Shin-ya Nishizaki and Shogo Murasaki.
 *Mixing Functions and Environments: Weak-Head Normalizability of λpenv and its
 Characterization by Intersection Types, Formalized in Isabelle/HOL.*
+
+## License
+
+MIT License (see [LICENSE](LICENSE)).
