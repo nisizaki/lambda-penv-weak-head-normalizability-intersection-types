@@ -1,0 +1,35 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[T1]{fontenc}
+\usepackage{isabelle,isabellesym}
+\usepackage{amssymb}
+\usepackage{pdfsetup}
+\urlstyle{rm}
+\isabellestyle{it}
+
+\begin{document}
+
+\title{Weak-Head Normalizability of $\lambda_{penv}$\\and its Characterization by Intersection Types}
+\author{Shin-ya Nishizaki \and Shogo Murasaki}
+\maketitle
+
+\begin{abstract}
+$\lambda_{penv}$ extends the calculus $\lambda_{env}$ of first-class environments with
+quoted names, so that functions and environments can be used interchangeably: looking
+up a variable in a function applies it to the quoted name, and applying an environment
+to a quoted name looks the name up.  For its weak-head (call-by-name) reduction we
+classify weak-head normal forms into neutral terms, values and clashes, and prove that a
+term is typable with an essential type in an intersection type system with $\omega$,
+environment types and name types if and only if it reaches a clash-free weak-head normal
+form, if and only if all its weak-head reductions terminate in clash-free normal forms.
+On sorted $\lambda_{env}$ terms the reduction coincides with that of $\lambda_{env}$, and
+on pure $\lambda$-terms typability coincides with weak-head normalizability of the
+$\lambda$-calculus.
+\end{abstract}
+
+\tableofcontents
+
+\parindent 0pt\parskip 0.5ex
+
+\input{session}
+
+\end{document}

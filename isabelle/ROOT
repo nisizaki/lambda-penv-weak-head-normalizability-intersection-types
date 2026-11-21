@@ -1,0 +1,27 @@
+chapter LambdaPEnvWeakHead
+
+session LambdaPEnvWeakHead = HOL +
+  description "
+    Weak-head (call-by-name) termination of lambda_penv and its
+    characterization by intersection types with name types.
+  "
+  options [document_output = "output", document_variants = "document:outline=/proof,/ML",
+    quick_and_dirty = false, skip_proofs = false]
+  theories
+    ARS
+    Syntax
+    Reduction
+    Sig_Confluence
+    WHNF_Classes
+    Uniform
+    Typing
+    Completeness
+    Soundness
+    Main_Results
+    Examples
+    Lambda
+    Sorted
+    Conservative
+    Readback
+  document_files
+    "root.tex"
